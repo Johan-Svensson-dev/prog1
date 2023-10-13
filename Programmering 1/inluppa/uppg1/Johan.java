@@ -21,7 +21,7 @@ public class Johan {
 		//tärning 2
 		int dice2;
 		
-		//bofitta
+		//boolean
 		boolean run = true;
 		
 		//do-while sats
@@ -40,32 +40,46 @@ public class Johan {
 			dice2 = (int)(Math.random()*6) +1;
 		
 			
+			//Printar ut 
 			System.out.println("Tärning 1: " + dice1);
 			System.out.println("Tärning 2: " + dice2);
+			
+			
+			//Om tärningarna är 1 och 6
 			if(dice1 == 6 && dice2 == 1 || dice1 == 1 && dice2 == 6) {
 				vinst = 3 * belopp;
 				System.out.println("Dubbelvinst " + belopp);
 			}
+			
+			//Om tärningarna är par
 			else if(dice1 == dice2) {
 				vinst = belopp;
 				System.out.println("Par " +belopp);
 				
 			}
+			
+			//Om tärningarna är lika med 7
 			else if(dice1 + dice2 ==7) {
-				vinst = 2 * belopp;
 				System.out.println("Vinst " +belopp);
 		
 			}
+			
+			//Om inget ovan stämmer
 			else {
 				System.out.println("Förlust");
 			}		
 			
+			//Bank fylls på med vinsten
 			bank +=vinst;
 			
+			//Printar ut banken
 			System.out.println("Du har nu " + bank);
 			
+			
+			//Printar ut fråga om man vill spela igen
 			System.out.println("Spela igen? (y/n)");
 
+			//Om valet börjar på n så är boolean false och stoppar do-while satsen
 			val = input.next().charAt(0);
 			if(val == 'n') {
 				run = false;
