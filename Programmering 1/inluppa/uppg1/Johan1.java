@@ -2,7 +2,7 @@ package uppg1;
 
 import java.util.Scanner;
 
-public class Johan {
+public class Johan1 {
 
 	public static void main(String[] args) {
 		
