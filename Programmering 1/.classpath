@@ -13,5 +13,6 @@
 	<classpathentry kind="src" path="Matte"/>
 	<classpathentry kind="src" path="inluppa"/>
 	<classpathentry kind="src" path="HtalBtal"/>
+	<classpathentry kind="src" path="metoder&amp;funktioner"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
