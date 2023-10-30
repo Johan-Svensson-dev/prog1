@@ -13,6 +13,8 @@ public class Metodtest {
 		String efterNamn = "Svensson";
 		String telNummer = "133769";
 		Uppgift2.details(förNamn, efterNamn, telNummer);
+		
+		//uppgift3
 	}
 
 }
