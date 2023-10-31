@@ -15,6 +15,9 @@ public class Metodtest {
 		Uppgift2.details(förNamn, efterNamn, telNummer);
 		
 		//uppgift3
+		int bas = 3;
+		int exponent = 2;
+		System.out.println(resultat);
 	}
 
 }
