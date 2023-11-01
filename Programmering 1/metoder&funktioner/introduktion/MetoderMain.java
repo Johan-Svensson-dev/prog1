@@ -24,7 +24,7 @@ public class MetoderMain {
 	//statisk funktion går att köra direkt
 	//public/protected/private static returtyp namn(indata, indata)
 	public static int kvadrat(double tal) {
-		int square = tal * tal;
+		int square = (int) (tal * tal);
 		return square;
 	}
 	

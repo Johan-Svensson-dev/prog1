@@ -7,7 +7,6 @@
 	<classpathentry kind="src" path="Kontrollsatser"/>
 	<classpathentry kind="src" path="Matte"/>
 	<classpathentry kind="src" path="inluppa"/>
-	<classpathentry kind="src" path="HtalBtal"/>
 	<classpathentry kind="src" path="metoder&amp;funktioner"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre"/>
 	<classpathentry kind="output" path="bin"/>
