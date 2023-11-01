@@ -15,9 +15,15 @@ public class Metodtest {
 		Uppgift2.details(förNamn, efterNamn, telNummer);
 		
 		//uppgift3
-		int bas = 3;
-		int exponent = 2;
-		System.out.println(resultat);
+		
 	}
+
+	public static void potens(int bas, int exponent) {
+		double potens = Math.pow(bas, exponent);
+		
+		
+	}
+	
+	
 
 }
