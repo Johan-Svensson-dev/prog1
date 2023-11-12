@@ -2,17 +2,13 @@ package puMetoder;
 
 public class Uppgift4 {
 	public static void romb (int n) {
-		//printa ut mellanslag
-		for( int i=0; i > n; i++) {
-			System.out.println(' ');
-		for(int j=0; i > n; j++) {
-			System.out.println("*");
-			
+		String tecken = "*";
+		String mellanrum = " ";
+
+		for(int i = 0; i < n; i++) {
+			System.out.println(mellanrum.repeat(i) + tecken.repeat(n));
 		}
-				System.out.println();
 			
-			
-		}
 			
 	}
 	public static void main(String[] args) {
