@@ -3,7 +3,7 @@ package puMetoder;
 public class Uppgift6 {
 
 	public static void main(String[] args) {
-		char siffra = '7';
+		char siffra = 'a';
 		System.out.println(decider(siffra));
 		
 	}
