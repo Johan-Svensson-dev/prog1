@@ -1,6 +1,6 @@
-package inluppa2;
+   package inluppa21;
 
-public class Johan {
+public class Johan21 {
 
     public static void main(String[] args) {
     	System.out.println("");
